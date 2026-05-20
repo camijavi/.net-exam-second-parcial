@@ -15,9 +15,6 @@ class Program
         double [,] notas = new double [numEstudiantes, numParciales];
         double [] promedios = new double [numEstudiantes];
 
-        int idEstudiante=0; 
-        double numeroValido;
-
         Console.Clear();
 
         for(int e = 0; e <numEstudiantes; e++){
@@ -53,9 +50,16 @@ class Program
                     }
 
                     if(double.TryParse(entradaValida, out nota) && nota >= 0 && nota <= 100){
-                        notas[e,p];
+                        notas[e,p] = nota;
+                        sumNotas += nota;
+
+                        break;
                     }
+
+                    Console.WriteLine("Error: Ingrese un número válido entre 0 y 100.");
                 }
+
+                promedios[e] = sumaNotas / numParciales;
             }
 
         }
