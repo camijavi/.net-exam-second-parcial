@@ -1,5 +1,10 @@
 ﻿using System;
 
+// Se desea realizar un programa en donde se capture el nombre y tres calificaciones para
+// 5 estudiantes de la facultad de Ingeniería, y después se pueda procesar dándonos el
+// promedio final de cada uno de los alumnos, el resultado se mostrará en pantalla.
+
+
 namespace PromedioFIA
 {
     class Program
@@ -31,7 +36,7 @@ namespace PromedioFIA
                         nombres[e] = nombreInput;
                         break; // Salimos del while cuando el nombre es válido
                     }
-                    Console.WriteLine("Error: No se puede ingresar un texto vacío.");
+                    Console.WriteLine("\n Error: No se puede ingresar un texto vacío.");
                 }
 
                 double sumaNotas = 0; // Reiniciamos suma para cada estudiante
@@ -40,7 +45,7 @@ namespace PromedioFIA
                     double nota;
                     while (true)
                     {
-                        Console.Write($"Ingrese nota del Parcial {p + 1} (0-100): ");
+                        Console.Write($"\nIngrese nota del Parcial {p + 1} (0-100): ");
                         string entradaValida = Console.ReadLine();
 
                         if (double.TryParse(entradaValida, out nota) && nota >= 0 && nota <= 100)
@@ -49,7 +54,7 @@ namespace PromedioFIA
                             sumaNotas += nota;
                             break;
                         }
-                        Console.WriteLine("Error: Ingrese un número válido entre 0 y 100.");
+                    Console.WriteLine("\nError: Ingrese un número válido entre 0 y 100.");
                     }
                 }
                 // El promedio se calcula al terminar los 3 parciales
