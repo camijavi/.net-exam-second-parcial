@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PromedioFIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+226dde62f34c497549a0f652424d47e5be115ce4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f605b9ee4be0d3a83c7114532232c797c13843a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PromedioFIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PromedioFIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

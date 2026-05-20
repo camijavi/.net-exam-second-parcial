@@ -53,7 +53,7 @@ namespace PromedioFIA
                     double nota;
                     while (true)
                     {
-                        Console.Write($"\nIngrese nota del Parcial {p + 1} (0-100): ");
+                        Console.Write($"Ingrese nota del Parcial {p + 1} (0-100): ");
                         string entradaValida = Console.ReadLine();
 
                         if (double.TryParse(entradaValida, out nota) && nota >= 0 && nota <= 100)
@@ -69,14 +69,23 @@ namespace PromedioFIA
                 promedios[e] = sumaNotas / numParciales;
             }
 
-            // Mostrar resultados
-            Console.WriteLine("\n" + new string('=', 40));
-            Console.WriteLine("RESULTADOS FINALES");
 
+            // Mostrar resultados 
+            Console.WriteLine("\n" + new string('=', 50));
+            Console.WriteLine("    UNIVERSIDAD AMERICANA (UAM)");
+            Console.WriteLine("    FACULTAD DE INGENIERÍA Y ARQUITECTURA");
+            Console.WriteLine(new string('=', 50));
+            Console.WriteLine(string.Format("{0,-5} | {1,-20} | {2,-10}", "ID", "NOMBRE", "PROMEDIO"));
+            Console.WriteLine(new string('-', 50));
+
+            // Mostrar resultados de cada estudiante
             for (int i = 0; i < numEstudiantes; i++)
             {
-                Console.WriteLine($"ID {i + 1} | Nombre: {nombres[i]} | Promedio Final: {promedios[i]:F2}");
+                // El formato {0,-20} alinea el texto a la izquierda ocupando 20 espacios
+                Console.WriteLine(string.Format("{0,-5} | {1,-20} | {2,-10:F2}", i + 1, nombres[i], promedios[i]));
             }
+            
+            Console.WriteLine(new string('=', 50) + "\n");
         }
     }
 }
