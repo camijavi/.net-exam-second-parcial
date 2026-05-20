@@ -24,19 +24,27 @@ namespace PromedioFIA
             {
                 int idEstudiante = e + 1;
                 Console.WriteLine($"\n--- Registro del Estudiante ID: {idEstudiante} ---");
-
-                // Entrada de nombre corregida
+ 
+                // Entrada de nombre con validación para evitar solo números
                 while (true)
                 {
                     Console.Write("Ingrese el nombre del estudiante: ");
                     string nombreInput = Console.ReadLine();
 
-                    if (!string.IsNullOrWhiteSpace(nombreInput))
+                    // Validamos que no esté vacío, que no sea solo espacios y que no sea un número
+                    if (!string.IsNullOrWhiteSpace(nombreInput) && !double.TryParse(nombreInput, out _))
                     {
                         nombres[e] = nombreInput;
-                        break; // Salimos del while cuando el nombre es válido
+                        break; 
                     }
-                    Console.WriteLine("\n Error: No se puede ingresar un texto vacío.");
+                    else if (string.IsNullOrWhiteSpace(nombreInput))
+                    {
+                        Console.WriteLine("Error: El nombre no puede estar vacío.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error: El nombre no puede ser un número.");
+                    }
                 }
 
                 double sumaNotas = 0; // Reiniciamos suma para cada estudiante
