@@ -15,8 +15,7 @@ class Program
         double [,] notas = new double [numEstudiantes, numParciales];
         double [] promedios = new double [numEstudiantes];
 
-        int idEstudiante=0;
-        string entradaValida;
+        int idEstudiante=0; 
         double numeroValido;
 
         Console.Clear();
@@ -40,25 +39,27 @@ class Program
                  Console.WriteLine("Error: No se puede ingresar un texto vacío o solo espacios. ");
             }
 
+            double sumaNotas = 0;
             for(int p = 0; p < numParciales; p++){
-                Console.Write($"Parcial {p+1}: ")
+                Console.Write($"Parcial {p+1}: ");
 
+                double nota;
+                 Console.WriteLine($"Ingrese nota del Parcial {p+1} (0-100): ");
                 while(true){
-                entradaValida = Console.ReadLine();
-                if (string.IsNullOrWhiteSpace(input))
-                {
-                    Console.WriteLine("Error: No se puede ingresar un texto vacío o solo espacios. ");
-                    continue;
-                }
+                    string entradaValida = Console.ReadLine();
 
-                if(double.TryParse(entradaValida, out numeroValido) && numeroValido >= 0 && numeroValido <=100){
-                    notas[p]
+                    if(string.IsNullOrWhiteSpace(entradaValida)){
+                        Console.WriteLine("Error: No se puede ingresar un texto vacío o solo espacios. ");
+                    }
+
+                    if(double.TryParse(entradaValida, out nota) && nota >= 0 && nota <= 100){
+                        notas[e,p];
+                    }
                 }
             }
 
-            }
         }
-
     }
-
 }
+
+
