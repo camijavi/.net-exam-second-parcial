@@ -1,0 +1,14 @@
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\bin\Debug\net9.0\1-abarrotera.exe
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\bin\Debug\net9.0\1-abarrotera.deps.json
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\bin\Debug\net9.0\1-abarrotera.runtimeconfig.json
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\bin\Debug\net9.0\1-abarrotera.dll
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\bin\Debug\net9.0\1-abarrotera.pdb
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\obj\Debug\net9.0\1-abarrotera.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\obj\Debug\net9.0\1-abarrotera.AssemblyInfoInputs.cache
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\obj\Debug\net9.0\1-abarrotera.AssemblyInfo.cs
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\obj\Debug\net9.0\1-abarrotera.csproj.CoreCompileInputs.cache
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\obj\Debug\net9.0\1-abarrotera.dll
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\obj\Debug\net9.0\refint\1-abarrotera.dll
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\obj\Debug\net9.0\1-abarrotera.pdb
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\obj\Debug\net9.0\1-abarrotera.genruntimeconfig.cache
+C:\Users\labc205\Desktop\Practica2Corte\1-abarrotera\obj\Debug\net9.0\ref\1-abarrotera.dll
