@@ -1,0 +1,15 @@
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\obj\Debug\net10.0\PromedioFIA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\obj\Debug\net10.0\PromedioFIA.AssemblyInfoInputs.cache
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\obj\Debug\net10.0\PromedioFIA.AssemblyInfo.cs
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\obj\Debug\net10.0\PromedioFIA.csproj.CoreCompileInputs.cache
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\obj\Debug\net10.0\PromedioFIA.sourcelink.json
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\bin\Debug\net10.0\PromedioFIA.exe
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\bin\Debug\net10.0\PromedioFIA.deps.json
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\bin\Debug\net10.0\PromedioFIA.runtimeconfig.json
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\bin\Debug\net10.0\PromedioFIA.dll
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\bin\Debug\net10.0\PromedioFIA.pdb
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\obj\Debug\net10.0\PromedioFIA.dll
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\obj\Debug\net10.0\refint\PromedioFIA.dll
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\obj\Debug\net10.0\PromedioFIA.pdb
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\obj\Debug\net10.0\PromedioFIA.genruntimeconfig.cache
+C:\Users\CJ\Documents\Project\.Net\.net-exam-second-parcial\PromedioFIA\obj\Debug\net10.0\ref\PromedioFIA.dll

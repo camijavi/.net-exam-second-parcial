@@ -1,75 +1,69 @@
-﻿namespace PromedioFIA;
+﻿using System;
 
-// Este programa calcula el promedio de 5 numEstudiantes de la 
-// Facultad de Ingeniería y Arquitectura (FIA) de UAM.
-
-class Program
+namespace PromedioFIA
 {
-    static void Main(string[] args)
+    class Program
     {
-        int numEstudiantes = 5;
-        int numParciales = 3;
+        static void Main(string[] args)
+        {
+            int numEstudiantes = 5;
+            int numParciales = 3;
 
-        // Arreglos para manejar la información
-        string [] nombres = new string [numEstudiantes];
-        double [,] notas = new double [numEstudiantes, numParciales];
-        double [] promedios = new double [numEstudiantes];
+            string[] nombres = new string[numEstudiantes];
+            double[,] notas = new double[numEstudiantes, numParciales];
+            double[] promedios = new double[numEstudiantes];
 
-        Console.Clear();
+            Console.Clear();
 
-        for(int e = 0; e <numEstudiantes; e++){
-            
-            idEstudiante = e + 1; //Asignamos un ID a cada estudiante
-            Console.WriteLine($"\n--- Registro del Estudiante ID: {idEstudiante} ---");
+            for (int e = 0; e < numEstudiantes; e++)
+            {
+                int idEstudiante = e + 1;
+                Console.WriteLine($"\n--- Registro del Estudiante ID: {idEstudiante} ---");
 
-            while(true){
-                Console.Write("Ingrese al nombre del estudiante: ")
-
-                string nombre = Console.ReadLine();
-
-
-                if (!string.IsNullOrWhiteSpace(nombre))
+                // Entrada de nombre corregida
+                while (true)
                 {
-                   nombres[e] = nombre;
-                    continue;
-                }
-                 Console.WriteLine("Error: No se puede ingresar un texto vacío o solo espacios. ");
-            }
+                    Console.Write("Ingrese el nombre del estudiante: ");
+                    string nombreInput = Console.ReadLine();
 
-            double sumaNotas = 0;
-            for(int p = 0; p < numParciales; p++){
-                Console.Write($"Parcial {p+1}: ");
-
-                double nota;
-                 Console.WriteLine($"Ingrese nota del Parcial {p+1} (0-100): ");
-                while(true){
-                    string entradaValida = Console.ReadLine();
-
-                    if(string.IsNullOrWhiteSpace(entradaValida)){
-                        Console.WriteLine("Error: No se puede ingresar un texto vacío o solo espacios. ");
+                    if (!string.IsNullOrWhiteSpace(nombreInput))
+                    {
+                        nombres[e] = nombreInput;
+                        break; // Salimos del while cuando el nombre es válido
                     }
-
-                    if(double.TryParse(entradaValida, out nota) && nota >= 0 && nota <= 100){
-                        notas[e,p] = nota;
-                        sumNotas += nota;
-
-                        break;
-                    }
-
-                    Console.WriteLine("Error: Ingrese un número válido entre 0 y 100.");
+                    Console.WriteLine("Error: No se puede ingresar un texto vacío.");
                 }
 
+                double sumaNotas = 0; // Reiniciamos suma para cada estudiante
+                for (int p = 0; p < numParciales; p++)
+                {
+                    double nota;
+                    while (true)
+                    {
+                        Console.Write($"Ingrese nota del Parcial {p + 1} (0-100): ");
+                        string entradaValida = Console.ReadLine();
+
+                        if (double.TryParse(entradaValida, out nota) && nota >= 0 && nota <= 100)
+                        {
+                            notas[e, p] = nota;
+                            sumaNotas += nota;
+                            break;
+                        }
+                        Console.WriteLine("Error: Ingrese un número válido entre 0 y 100.");
+                    }
+                }
+                // El promedio se calcula al terminar los 3 parciales
                 promedios[e] = sumaNotas / numParciales;
             }
 
-            Console.WriteLine("\n"+ new string ('=',40));
+            // Mostrar resultados
+            Console.WriteLine("\n" + new string('=', 40));
             Console.WriteLine("RESULTADOS FINALES");
 
-            for(int e = 0; e < numEstudiantes; e++){
-                Console.WriteLine($"ID {e+1} | Nombre {nombre[e]} | Promedio Final: {promedio[e]:F}");
+            for (int i = 0; i < numEstudiantes; i++)
+            {
+                Console.WriteLine($"ID {i + 1} | Nombre: {nombres[i]} | Promedio Final: {promedios[i]:F2}");
             }
         }
     }
 }
-
-

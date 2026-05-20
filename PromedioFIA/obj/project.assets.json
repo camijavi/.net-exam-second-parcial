@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CJ\\Documents\\Project\\.Net\\PromedioFIA\\PromedioFIA.csproj",
+      "projectUniqueName": "C:\\Users\\CJ\\Documents\\Project\\.Net\\.net-exam-second-parcial\\PromedioFIA\\PromedioFIA.csproj",
       "projectName": "PromedioFIA",
-      "projectPath": "C:\\Users\\CJ\\Documents\\Project\\.Net\\PromedioFIA\\PromedioFIA.csproj",
+      "projectPath": "C:\\Users\\CJ\\Documents\\Project\\.Net\\.net-exam-second-parcial\\PromedioFIA\\PromedioFIA.csproj",
       "packagesPath": "C:\\Users\\CJ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CJ\\Documents\\Project\\.Net\\PromedioFIA\\obj\\",
+      "outputPath": "C:\\Users\\CJ\\Documents\\Project\\.Net\\.net-exam-second-parcial\\PromedioFIA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
