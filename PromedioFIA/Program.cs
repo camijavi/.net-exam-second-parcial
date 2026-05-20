@@ -62,6 +62,12 @@ class Program
                 promedios[e] = sumaNotas / numParciales;
             }
 
+            Console.WriteLine("\n"+ new string ('=',40));
+            Console.WriteLine("RESULTADOS FINALES");
+
+            for(int e = 0; e < numEstudiantes; e++){
+                Console.WriteLine($"ID {e+1} | Nombre {nombre[e]} | Promedio Final: {promedio[e]:F}");
+            }
         }
     }
 }
