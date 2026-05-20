@@ -1,0 +1,14 @@
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\bin\Debug\net10.0\clinica.exe
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\bin\Debug\net10.0\clinica.deps.json
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\bin\Debug\net10.0\clinica.runtimeconfig.json
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\bin\Debug\net10.0\clinica.dll
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\bin\Debug\net10.0\clinica.pdb
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\obj\Debug\net10.0\clinica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\obj\Debug\net10.0\clinica.AssemblyInfoInputs.cache
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\obj\Debug\net10.0\clinica.AssemblyInfo.cs
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\obj\Debug\net10.0\clinica.csproj.CoreCompileInputs.cache
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\obj\Debug\net10.0\clinica.dll
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\obj\Debug\net10.0\refint\clinica.dll
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\obj\Debug\net10.0\clinica.pdb
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\obj\Debug\net10.0\clinica.genruntimeconfig.cache
+C:\Users\francis\OneDrive\Desktop\clinica\clinica\obj\Debug\net10.0\ref\clinica.dll
